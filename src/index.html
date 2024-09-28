@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYT Most Popular Articles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Daily News</h1>
+    </header>
+
+    <nav>
+        
+        <label for="category">Choose a category:</label>
+        <select id="category">
+            <option value="emailed">Most Emailed</option>
+            <option value="viewed">Most Viewed</option>
+            <option value="shared">Most Shared</option>
+            <option value="sports">Sports</option>
+            <option value="world">World News</option>
+            <option value="arts">Arts & Culture</option>
+        </select>
+        
+        <input type="text" id="search-bar" placeholder="Search articles...">
+        <button id="search-button">Search</button>
+    </nav>
+
+    <main>
+        <div id="article-list" class="articles-container"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Daily News</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
